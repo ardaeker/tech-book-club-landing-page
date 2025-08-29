@@ -1,0 +1,37 @@
+@import "tailwindcss";
+
+@theme inline {
+  --breakpoint-xs: 23.375rem;
+
+  --spacing-5xl: 60.625rem;
+  --spacing-7xl: 73.125rem;
+
+  --color-salmon-50: #fff5ef;
+  --color-salmon-100: #ffe2d1;
+
+  --color-neutral-100: #faf5f3;
+  --color-neutral-200: #e6e1df;
+  --color-neutral-700: #385159;
+  --color-neutral-900: #062630;
+
+  --font-sans: var(--font-inter);
+  --font-fira: var(--font-fira-code);
+  --font-mono: var(--font-martian-mono);
+}
+
+html,
+body {
+  background-color: #faf5f3;
+}
+
+.bg-pattern-light {
+  background-image: url("/background-pattern-light.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bg-pattern-dark {
+  background-image: url("/background-pattern-dark.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
